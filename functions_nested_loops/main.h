@@ -53,4 +53,13 @@ int _isalpha(int c);
  */
 int print_sign(int n);
 
+/**
+ * _abs - prints a absolute value of a number
+ * @int: the input number
+ *
+ * Return: absolute value of int
+ *
+ */
+int _abs(int);
+
 #endif
