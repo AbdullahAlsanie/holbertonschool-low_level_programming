@@ -70,4 +70,10 @@ int _abs(int);
  */
 int print_last_digit(int);
 
+/**
+ * jack_bauer - print every min of the day of jack_bauer
+ *
+ */
+void jack_bauer(void);
+
 #endif
