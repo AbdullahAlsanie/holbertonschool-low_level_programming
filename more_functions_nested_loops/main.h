@@ -7,4 +7,11 @@
  * Return:1 if c is upper case , 0 otherwise
  */
 int _isupper(int c);
+/**
+ * _isdigit - checks if the input is a dicimal intger form 0 to 9
+ * @c: the input to check
+ *
+ * Return: 1 if c is a digit, 0 otherwise
+ */
+int _isdigit(int c);
 #endif
