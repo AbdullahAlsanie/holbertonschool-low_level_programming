@@ -1,6 +1,14 @@
 #ifndef MAIN_H
 #define MAIN_H
 /**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c);
+/**
  * _isupper - checks if upper case or not
  * @c: input to check
  *
@@ -22,4 +30,11 @@ int _isdigit(int c);
  * Return: the result of multiplication
  */
 int mul(int a, int b);
+/**
+ * print_numbers - print the numbers 0 to 9
+ *
+ *
+ * Return: always 0
+ */
+void print_numbers(void);
 #endif
