@@ -14,4 +14,12 @@ int _isupper(int c);
  * Return: 1 if c is a digit, 0 otherwise
  */
 int _isdigit(int c);
+/**
+ * mul - multiply two integers
+ * @a: the first integer
+ * @b: the second integer
+ *
+ * Return: the result of multiplication
+ */
+int mul(int a, int b);
 #endif
