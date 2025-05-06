@@ -58,4 +58,11 @@ void more_numbers(void);
  * Return: always 0
  */
 void print_line(int n);
+/**
+ * print_diagonal - prints a diagonal line
+ * @n: the length of the diagonal line
+ *
+ * Return; always 0
+ */
+void print_diagonal(int n);
 #endif
