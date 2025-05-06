@@ -37,4 +37,11 @@ int mul(int a, int b);
  * Return: always 0
  */
 void print_numbers(void);
+/**
+ * print_most_numbers - prints the number 0 to 9 expect 2 and 4
+ *
+ *
+ * Return: always 0
+ */
+void print_most_numbers(void);
 #endif
