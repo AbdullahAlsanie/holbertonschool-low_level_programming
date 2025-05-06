@@ -44,4 +44,11 @@ void print_numbers(void);
  * Return: always 0
  */
 void print_most_numbers(void);
+/**
+ * more_numbers - print the numbers 0 to 14 ten times
+ *
+ *
+ * Return: always 0
+ */
+void more_numbers(void);
 #endif
