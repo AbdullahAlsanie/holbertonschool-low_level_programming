@@ -65,4 +65,11 @@ void print_line(int n);
  * Return; always 0
  */
 void print_diagonal(int n);
+/**
+ * print_square - prints a square of the input size
+ * @size: the input wich determine the square size
+ *
+ * Return: always 0
+ */
+void print_square(int size);
 #endif
