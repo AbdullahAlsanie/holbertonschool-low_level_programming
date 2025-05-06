@@ -72,4 +72,11 @@ void print_diagonal(int n);
  * Return: always 0
  */
 void print_square(int size);
+/**
+ * print_triangle - prints a triangle of the input size
+ * @size: the input wich determaine the triangle size
+ *
+ * Return: always 0
+ */
+void print_triangle(int size);
 #endif
