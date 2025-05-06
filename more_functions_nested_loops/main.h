@@ -51,4 +51,11 @@ void print_most_numbers(void);
  * Return: always 0
  */
 void more_numbers(void);
+/**
+ * print_line - print a line that has the input length
+ * @n: the input wich determine the length
+ *
+ * Return: always 0
+ */
+void print_line(int n);
 #endif
