@@ -37,4 +37,11 @@ int _strlen(char *s);
  * Return: always 0
  */
 void _puts(char *str);
+/**
+ * print_rev - prints a string in reverse
+ * @s: the string to print
+ *
+ * Return: always 0
+ */
+void print_rev(char *s);
 #endif
