@@ -30,4 +30,11 @@ void swap_int(int *a, int *b);
  * Return: the String length
  */
 int _strlen(char *s);
+/**
+ * _puts - print a string followed by a new line
+ * @str: the string to print
+ *
+ * Return: always 0
+ */
+void _puts(char *str);
 #endif
