@@ -51,4 +51,11 @@ void print_rev(char *s);
  * Return: always 0
  */
 void rev_string(char *s);
+/**
+ * puts2 - print every other character of a string strarting with the frist one
+ * @str: the String to print
+ *
+ * Return: always 0
+ */
+void puts2(char *str);
 #endif
