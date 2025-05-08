@@ -15,4 +15,12 @@ int _putchar(char c);
  * Return: always 0
  */
 void reset_to_98(int *n);
+/**
+ * swap_int - swap the value of tow integers
+ * @a: first integer
+ * @b: second integer
+ *
+ * Return: always 0
+ */
+void swap_int(int *a, int *b);
 #endif
