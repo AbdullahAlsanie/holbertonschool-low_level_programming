@@ -65,4 +65,11 @@ void puts2(char *str);
  * Return: always 0
  */
 void puts_half(char *str);
+/**
+ * print_array - prints array
+ * @a: pointer of array
+ * @n: how many times to prints
+ *
+ */
+void print_array(int *a, int n);
 #endif
