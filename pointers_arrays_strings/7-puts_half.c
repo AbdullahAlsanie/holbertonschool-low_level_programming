@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * puts_half - prints the scond half of a string
  * @str: the string to print
@@ -32,5 +33,5 @@ void puts_half(char *str)
 			_putchar(str[n]);
 		}
 	}
-i		_putchar('\n');
+	_putchar('\n');
 }
