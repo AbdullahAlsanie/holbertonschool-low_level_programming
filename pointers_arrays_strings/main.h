@@ -81,4 +81,11 @@ void print_array(int *a, int n);
  * Return: a character value
  */
 char *_strcpy(char *dest, char *src);
+/**
+ * _atoi - converts string to integer
+ * @s: string to convert
+ *
+ * Return: returns integer value
+ */
+int _atoi(char *s);
 #endif
