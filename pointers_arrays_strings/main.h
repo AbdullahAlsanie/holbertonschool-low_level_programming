@@ -58,4 +58,11 @@ void rev_string(char *s);
  * Return: always 0
  */
 void puts2(char *str);
+/**
+ * puts_half - prints the scond half of a string
+ * @str: the string to print
+ *
+ * Return: always 0
+ */
+void puts_half(char *str);
 #endif
