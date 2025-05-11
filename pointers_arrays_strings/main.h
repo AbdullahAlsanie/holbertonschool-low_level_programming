@@ -134,4 +134,10 @@ void reverse_array(int *a, int n);
  * Return: return value of upper
  */
 char *string_toupper(char *s);
+/**
+ * cap_string - returns boolean if special  character
+ * @a: character to return
+ * Return: true or false
+ */
+int cap_string(char a);
 #endif
