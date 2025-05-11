@@ -82,10 +82,10 @@ void print_array(int *a, int n);
  */
 char *_strcpy(char *dest, char *src);
 /**
- * _atoi - converts string to integer
- * @s: string to convert
+ * _atoi - converts a string to an integer
+ * @s: input string
  *
- * Return: returns integer value
+ * Return: the integer result
  */
 int _atoi(char *s);
 /**
