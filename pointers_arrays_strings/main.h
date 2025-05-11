@@ -105,4 +105,13 @@ char *_strcat(char *dest, char *src);
  * Return: a pointer to the dest string
  */
 char *_strncat(char *dest, char *src, int n);
+/**
+ * _strncpy - copis a string
+ * @dest: string to copy
+ * @src: copid sting
+ * @n: number of byts
+ *
+ * Return:a pointer to the copid string src
+ */
+char *_strncpy(char *dest, char *src, int n);
 #endif
