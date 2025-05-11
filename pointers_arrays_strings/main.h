@@ -88,4 +88,12 @@ char *_strcpy(char *dest, char *src);
  * Return: returns integer value
  */
 int _atoi(char *s);
+/**
+ * _strcat - concatenates two strings
+ * @dest : first string
+ * @src : second String
+ *
+ * Return: a pointer to the new concatenated string
+ */
+char *_strcat(char *dest, char *src);
 #endif
