@@ -96,4 +96,13 @@ int _atoi(char *s);
  * Return: a pointer to the new concatenated string
  */
 char *_strcat(char *dest, char *src);
+/**
+ * _strncat - concatenates two strings , similar to _strcat
+ * @dest: first string
+ * @src: second string
+ * @n: number of byts
+ *
+ * Return: a pointer to the dest string
+ */
+char *_strncat(char *dest, char *src, int n);
 #endif
