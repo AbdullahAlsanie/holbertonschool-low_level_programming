@@ -32,7 +32,7 @@ int _atoi(char *s)
 			}
 			else
 			{
-				if (num > (2147483648U - digit) / 10)
+				if (num > (int)(2147483648U - digit) / 10)
 				{
 					return (-2147483648);
 				}
