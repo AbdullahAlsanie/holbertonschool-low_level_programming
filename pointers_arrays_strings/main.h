@@ -135,9 +135,10 @@ void reverse_array(int *a, int n);
  */
 char *string_toupper(char *s);
 /**
- * cap_string - returns boolean if special  character
- * @a: character to return
- * Return: true or false
+ * cap_string - capitalizes all words of a string
+ * @s: the input string
+ *
+ * Return: pointer to the modified string
  */
-int cap_string(char a);
+char *cap_string(char *s);
 #endif
