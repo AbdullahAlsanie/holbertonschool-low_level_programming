@@ -114,4 +114,11 @@ char *_strncat(char *dest, char *src, int n);
  * Return:a pointer to the copid string src
  */
 char *_strncpy(char *dest, char *src, int n);
+/**
+ * _strcmp - compars to strings
+ * @s1: first string
+ * @s2: second string
+ * Return: 0 if thay are equle, -1 if s1 less the s2, 1 if s1 bigger than s2
+ */
+int _strcmp(char *s1, char *s2);
 #endif
