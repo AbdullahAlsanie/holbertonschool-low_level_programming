@@ -33,4 +33,12 @@ char *_strdup(char *str);
  * Return: pointer to the Concatenated string, Null if faild
  */
 char *str_concat(char *s1, char *s2);
+/**
+ * alloc_grid - creat a 2 dimen array
+ * @width: the width of the array
+ * @height: the height of the array
+ *
+ * Return: a pointer to the array
+ */
+int **alloc_grid(int width, int height);
 #endif
