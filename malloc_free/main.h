@@ -18,4 +18,12 @@ int _putchar(char c);
  * Return: Null if size 0, pointer to the array or Null if it fails
  */
 char *create_array(unsigned int size, char c);
+/**
+ * str_concat - concatenates two strings
+ * @s1: pointer to the first string
+ * @s2: pointer to the second string
+ *
+ * Return: pointer to the Concatenated string, Null if faild
+ */
+char *str_concat(char *s1, char *s2);
 #endif
