@@ -11,7 +11,7 @@
  */
 int _putchar(char c);
 /**
- * creat_array - creates an array of chars, and initializes it with a specific char.
+ * creat_array - creates an array and initializes it with a specific char
  * @size: size of the array
  * @c: initialized char
  *
