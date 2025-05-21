@@ -15,4 +15,13 @@ int _putchar(char c);
  * Return: pointer to the allocated memory
  */
 void *malloc_checked(unsigned int b);
+/**
+ * string_nconcat - concatenates two strings.
+ * @s1: First String
+ * @s2: Second String
+ * @n: Number of byts for the second string
+ *
+ * Return: Pointer to a newly allocated space in memory
+ */
+char *string_nconcat(char *s1, char *s2, unsigned int n);
 #endif
