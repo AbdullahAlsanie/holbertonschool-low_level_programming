@@ -24,4 +24,18 @@ void *malloc_checked(unsigned int b);
  * Return: Pointer to a newly allocated space in memory
  */
 char *string_nconcat(char *s1, char *s2, unsigned int n);
+/**
+ * _calloc - calloc function
+ * @nmemb: number of elements
+ * @size: size of bytes
+ * Return: pointer or void
+ */
+void *_calloc(unsigned int nmemb, unsigned int size);
+/**
+ * array_range - range of arrays
+ * @min: min of arrange
+ * @max: max of arrays
+ * Return: int value
+ */
+int *array_range(int min, int max);
 #endif
