@@ -17,4 +17,13 @@ void print_name(char *name, void (*f)(char *));
  * Return: always 0
  */
 void array_iterator(int *array, size_t size, void (*action)(int));
+/**
+ * int_index - searches for an integer in an array
+ * @array: the array given
+ * @size: the array size
+ * @cmp: the commpar function
+ *
+ * Return: Index of the found Int, -1 otherwise
+ */
+int int_index(int *array, int size, int (*cmp)(int));
 #endif
