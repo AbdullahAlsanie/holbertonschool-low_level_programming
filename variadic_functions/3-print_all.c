@@ -81,10 +81,10 @@ void print_all(const char * const format, ...)
 			{
 				printf("%s", sep);
 				ops[j].f(anyArgs);
+				sep = sep2;
 			}
 			j++;
 		}
-		sep = sep2;
 		i++;
 	}
 	printf("\n");
