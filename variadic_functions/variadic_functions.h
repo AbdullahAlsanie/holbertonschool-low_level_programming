@@ -28,4 +28,13 @@ int sum_them_all(const unsigned int n, ...);
  */
 void print_numbers(const char *separator, const unsigned int n, ...);
 
+/**
+ * print_strings - prints strings, followed by a new line.
+ * @separator: the string to be printed between the strings
+ * @n: the number of strings passed to the function
+ *
+ * Return: Nothing
+ */
+void print_strings(const char *separator, const unsigned int n, ...);
+
 #endif
