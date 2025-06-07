@@ -49,4 +49,14 @@ size_t list_len(const list_t *h);
  * Return: the address of the new element, or NULL if it failed
  */
 list_t *add_node(list_t **head, const char *str);
+
+/**
+ * add_node_end - adds a new node at the end of a list_t list.
+ * @head: pointer to the head of list_t list.
+ * @str: the string of the new node
+ *
+ * Return: the address of the new element, or NULL if it failed
+ */
+list_t *add_node_end(list_t **head, const char *str);
+
 #endif
