@@ -40,4 +40,13 @@ size_t print_list(const list_t *h);
  * Return: number of elements
  */
 size_t list_len(const list_t *h);
+
+/**
+ * add_node -  adds a new node at the beginning of a list_t list.
+ * @head: addres to the head of list_t
+ * @str: the string of the new node
+ *
+ * Return: the address of the new element, or NULL if it failed
+ */
+list_t *add_node(list_t **head, const char *str);
 #endif
