@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdilb.h>
+#include <string.h>
 #include "lists.h"
 /**
  * free_dlistint - frees list

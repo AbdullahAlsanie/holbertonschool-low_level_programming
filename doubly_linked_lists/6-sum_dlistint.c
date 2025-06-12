@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdilb.h>
+#include <string.h>
 #include "lists.h"
 /**
  * sum_dlistint - sums up values of linked list

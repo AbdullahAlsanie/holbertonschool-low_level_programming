@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdilb.h>
+#include <string.h>
 #include "lists.h"
 /**
  * add_dnodeint - adds node at top
