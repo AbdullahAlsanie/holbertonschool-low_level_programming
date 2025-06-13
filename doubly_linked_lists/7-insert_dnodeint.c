@@ -1,55 +1,53 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
 #include "lists.h"
+#include <stdlib.h>
+
 /**
- * insert_dnodeint_at_index - insert node at index?
- * @h: address of linked list
- * @idx: index to place list
- * @n: value of n
- * Return: return new node or NULL
+ * insert_dnodeint_at_index - Inserts a new node at a given position.
+ * @h: Double pointer to the head of the list.
+ * @idx: Index at which to insert the new node.
+ * @n: Data for the new node.
+ * Return: Address of the new node, or NULL on failure.
  */
 dlistint_t *insert_dnodeint_at_index(dlistint_t **h, unsigned int idx, int n)
 {
-	dlistint_t *tmp, *new;
-	unsigned int dex = 1;
+	dlistint_t *new, *curr = *h;
+	unsigned int i = 0;
 
-	tmp = *h;
+	if (!h)
+		return (NULL);
+
 	new = malloc(sizeof(dlistint_t));
-	if (new == NULL)
+	if (!new)
 		return (NULL);
 	new->n = n;
-	new->prev = NULL;
-	new->next = NULL;
-	if ((*h) == NULL)
-	{
-		if (idx == 0)
-		{
-			*h = new;
-			return (new);
-		}
-		return (NULL);
-	}
+
 	if (idx == 0)
 	{
+		new->prev = NULL;
 		new->next = *h;
-		(*h)->prev = new;
+		if (*h)
+			(*h)->prev = new;
 		*h = new;
 		return (new);
 	}
-	while (tmp->next != NULL && dex != idx)
+
+	while (curr && i < idx - 1)
 	{
-		tmp = tmp->next;
-		dex++;
+		curr = curr->next;
+		i++;
 	}
-	if (dex == idx)
+
+	if (!curr)
 	{
-		new->prev = tmp;
-		new->next = tmp->next;
-		if (tmp->next != NULL)
-			tmp->next->prev = new;
-		tmp->next = new;
-		return (new);
+		free(new);
+		return (NULL);
 	}
-	return (NULL);
+
+	new->next = curr->next;
+	new->prev = curr;
+	if (curr->next)
+		curr->next->prev = new;
+	curr->next = new;
+
+	return (new);
 }
