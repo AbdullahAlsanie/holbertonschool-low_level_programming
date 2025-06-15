@@ -28,5 +28,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	if (close(fd) == -1)
 		return (0);
 	free(buff);
+	if (printed != worte)
+		return (0);
 	return (printed);
 }
